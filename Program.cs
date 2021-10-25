@@ -24,9 +24,11 @@ namespace SystemOfDawn
         }
         static public void form()
         {
+            string romb = "Ромб";
             string square = "Квадратный";
             string sircle = "Круглый";
             string rectangular = "Прямоугольный";
+            Console.WriteLine($"Форма стола ={romb}");
             Console.WriteLine($"Форма стола ={square}");
             Console.WriteLine($"Форма стола ={sircle}");
             Console.WriteLine($"Форма стола ={rectangular}");
